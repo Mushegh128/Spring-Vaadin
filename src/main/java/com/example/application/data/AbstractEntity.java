@@ -19,6 +19,7 @@ public abstract class AbstractEntity {
         this.id = id;
     }
 
+
     @Override
     public int hashCode() {
         if (id != null) {
